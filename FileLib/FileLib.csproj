@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MimeMapping" Version="1.0.1.37" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Test.puml" />
+    </ItemGroup>
+
+</Project>
